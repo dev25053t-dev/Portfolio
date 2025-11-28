@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Devendra Tembhare — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Devendra — Data Analyst & Web Developer" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Devendra Tembhare</h1>
+        <p class="subtitle">Data Analyst • Portfolio Web Developer</p>
+      </div>
+      <nav class="top-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="container hero-inner">
+        <div class="profile-hex">
+          <!-- Replace profile.jpg with your actual image file -->
+          <img src="profile.jpg" alt="Devendra Tembhare" />
+        </div>
+
+        <div class="hero-text">
+          <h2>Hello — I'm Devendra</h2>
+          <p class="role">Data Analyst & Web Developer</p>
+          <p class="lead">
+            Detail-oriented Data Analyst with expertise in transforming raw data into actionable insights. Skilled in data visualization, statistical analysis, and building dashboards to support business decisions.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn" href="#contact">Contact Me</a>
+            <a class="btn outline" href="Devendra_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>
+          Detail-oriented Data Analyst with expertise in transforming raw data into actionable insights. Skilled in data visualization, statistical analysis, and building dashboards to support business decisions. Passionate about solving complex problems using data, optimizing workflows, and delivering clear, reliable results. Experienced with Excel, SQL, Power BI and building portfolio websites.
+        </p>
+
+        <div class="contact-cards">
+          <div class="card">
+            <h4>Contact</h4>
+            <p>Phone: <a href="tel:+917350267920">+91 73502 67920</a></p>
+            <p>Email: <a href="mailto:dev25053t@gmail.com">dev25053t@gmail.com</a></p>
+            <p>Location: At Chutiya, Dist- Gondia, MH (441601)</p>
+          </div>
+
+          <div class="card">
+            <h4>Languages</h4>
+            <ul class="languages">
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Marathi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h3>Skills</h3>
+        <div class="skill-grid">
+          <div class="skill">
+            <h5>MS-Excel with AI</h5>
+            <p>Data management, MIS reports</p>
+          </div>
+          <div class="skill">
+            <h5>Power BI</h5>
+            <p>Data visualization, dashboards</p>
+          </div>
+          <div class="skill">
+            <h5>SQL (PostgreSQL)</h5>
+            <p>Basic queries, joins, data extraction</p>
+          </div>
+          <div class="skill">
+            <h5>VSCode with AI</h5>
+            <p>Portfolio web development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <h3>Education</h3>
+        <div class="edu-list">
+          <div class="edu-item">
+            <h4>RTMNU</h4>
+            <p>B.Com</p>
+            <h4>PLATFORM [ ACCOUNTS EXPERT ]</h4>
+            <p>Course: Data Analytics AND Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <form id="contactForm" class="contact-form" action="#" novalidate>
+          <div class="field-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="field-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="field-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="field-row">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Devendra Tembhare — Data Analyst</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
